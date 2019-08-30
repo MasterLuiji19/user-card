@@ -7,6 +7,7 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
     max-width: 1176px;
+    height: 100vh;
     font-size: 15px;
     color: #698392;
     font-family: 'Museo Sans Cyrl 500', Arial, Helvetica, sans-serif;
