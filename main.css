@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.user-card {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1176px;
+    font-size: 15px;
+    color: #698392;
+    font-family: 'Museo Sans Cyrl 500', Arial, Helvetica, sans-serif;
+    background-color: #f3f3f4;
+}
+
+.background {
+    height: 213px;
+    background: url(./img/background.png);
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+}
+
+.profile {
+    width: 24%;
+    margin: -111px 6% 0 9%;
+}
+
+.info__avatar {
+    height: 222px;
+    position: relative;
+}
+
+.info__avatar-image {
+    border-radius: 50%;
+    vertical-align: bottom;
+    width: auto;
+}
+
+.info__avatar::before {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    bottom: 0;
+    position: absolute;
+}
+
+.info__data {
+    margin: 30px 0 24px;
+}
+
+.info__data-name {
+    display: block;
+    font-size: 1.6em;
+    color: #2b3341;
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.performance {
+    display: flex;
+    margin: 30px 0;
+}
+
+.performance__earned {
+    margin-right: 25px;
+    border-right: 1px solid #eef0f6;
+}
+
+.performance__thanks {
+    margin-right: 50px;
+}
+
+.performance__title {
+    display: block;
+    font-size: 42px;
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;;
+    color: #2b3341;
+}
+
+.performance__subtitle {
+    font-family: 'Museo Sans Cyrl 700', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.user-account {
+    width: 76%;
+    margin: 50px 7% 0 0;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.menu__item {
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    color: #a5b5be;
+    line-height: 24px;
+    list-style: none;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #a5b5be;
+    font-size: 16px;
+    margin-right: 26px;
+}
+
+.menu__link:hover {
+    color: #2b3341;
+}
+
+.block-wrapper {
+    margin: 40px 0 90px;
+    padding: 30px 56px 0 56px;
+    background-color: #fff;
+}
+
+.breadcrumbs {
+    margin-bottom: 40px;
+}
+
+.info-done {
+    margin-bottom: 48px;
+    display: flex;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 23px;
+    box-sizing: border-box;
+    padding: 18px 16px;
+    width: 130px;
+    height: 142px;
+    background-color: #f3f3f4;
+    border-radius: 4px;
+}
+
+.info-box__title {
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: #2b3341;
+    margin-bottom: 30px;
+}
+
+.info-box__item {
+    font-size: 14px;
+    font-family: 'Museo Sans Cyrl 700', Arial, Helvetica, sans-serif;
+}
+
+.table-wrap {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f3f3f4;
+}
+
+.table-head {
+    background-color: #f3f3f4;
+}
+
+.table-cell:first-child {
+    width: 40%;
+}
+
+.table-cell {
+    width: 20%;
+    padding-right: 10px;
+}
+
+.table-cell__link {
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #229fff;
+}
+
+.table-cell__done {
+    color: #10b112;
+}
+
+.table-cell__black-text {
+    color: #000;
+}
+
+@media only screen and (max-width:768px) {
+    .content {
+        display: block;
+    }
+
+    .profile {
+        width: 80%;
+    }
+
+    .info {
+        display: flex;
+    }
+
+    .info__avatar {
+        width: 50%;
+    }
+
+    .info-wrapper {
+        width: 40%;
+        margin-top: 113px;
+    }
+
+    .info__data-name {
+        margin-bottom: 15px;
+    }
+
+    .user-account {
+        margin: 0 auto;
+        padding-bottom: 90px;
+    }
+
+    .block-wrapper {
+        margin-bottom: 0;
+    }
+
+    .column-2, .column-4 {
+        display: none;
+    }
+
+    .column-1 {
+        width: 60%;
+    }
+
+    .column-3 {
+        width: 40%;
+    }
+}
