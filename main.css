@@ -29,21 +29,24 @@ body {
 }
 
 .info__avatar {
-    height: 222px;
     position: relative;
+    display: block;
+    width: 222px;
+    height: 100%;
 }
 
 .info__avatar-image {
     border-radius: 50%;
     vertical-align: bottom;
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 .info__avatar::before {
     content: '';
     display: block;
-    width: 70px;
-    height: 70px;
+    width: 30%;
+    height: 30%;
     border-radius: 50%;
     background-color: #fff;
     bottom: 0;
@@ -99,7 +102,6 @@ body {
     padding: 0;
     display: flex;
     overflow: hidden;
-    text-overflow: ellipsis;
     white-space: nowrap;
 }
 
@@ -208,19 +210,17 @@ body {
 
     .profile {
         width: 80%;
+        margin: -79px 6% 0 6%;
     }
 
     .info {
         display: flex;
-    }
-
-    .info__avatar {
-        width: 50%;
+        justify-content: space-between;
     }
 
     .info-wrapper {
         width: 40%;
-        margin-top: 113px;
+        margin: 79px 25px 0;
     }
 
     .info__data-name {
@@ -234,6 +234,16 @@ body {
 
     .block-wrapper {
         margin-bottom: 0;
+        padding: 30px 30px 0;
+    }
+
+    .info-done {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .info-box {
+        margin-bottom: 23px;
     }
 
     .column-2, .column-4 {
@@ -246,5 +256,18 @@ body {
 
     .column-3 {
         width: 40%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .info-done {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 130px;
+    }
+
+    .info-box {
+        margin-right: 0;
     }
 }
