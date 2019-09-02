@@ -269,15 +269,15 @@ body {
     }
 }
 
-@media only screen and (max-width:480px) {
-    .info-done {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        width: 130px;
-    }
+/*@media only screen and (max-width:480px) {*/
+/*    .info-done {*/
+/*        display: flex;*/
+/*        flex-wrap: nowrap;*/
+/*        flex-direction: column;*/
+/*        width: 130px;*/
+/*    }*/
 
-    .info-box {
-        margin-right: 0;
-    }
-}
+/*    .info-box {*/
+/*        margin-right: 0;*/
+/*    }*/
+/*}*/
