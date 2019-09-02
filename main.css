@@ -238,7 +238,7 @@ body {
     }
 
     .menu {
-        padding-left: 20px;
+        padding-left: 25px;
     }
 
     .block-wrapper {
@@ -249,6 +249,7 @@ body {
     .info-done {
         flex-wrap: wrap;
         margin: 0 auto;
+        padding-left: 25px;
     }
 
     .info-box {
