@@ -142,10 +142,15 @@ body {
     display: flex;
 }
 
+.info-box__link {
+    display: block;
+    text-decoration: none;
+    margin-right: 23px;
+}
+
 .info-box {
     display: flex;
     flex-direction: column;
-    margin-right: 23px;
     box-sizing: border-box;
     padding: 18px 16px;
     width: 130px;
@@ -162,8 +167,9 @@ body {
 }
 
 .info-box__item {
-    font-size: 14px;
     font-family: 'Museo Sans Cyrl 700', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #2b3341;
 }
 
 .table-wrap {
