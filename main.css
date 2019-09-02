@@ -119,6 +119,10 @@ body {
     margin-right: 26px;
 }
 
+.user-account__menu-link {
+    font-size: 18px;
+}
+
 .menu__link:hover {
     color: #2b3341;
 }
@@ -230,6 +234,11 @@ body {
     .user-account {
         margin: 0 auto;
         padding-bottom: 90px;
+        width: 100%;
+    }
+
+    .user-account__menu {
+        padding-left: 20px;
     }
 
     .block-wrapper {
