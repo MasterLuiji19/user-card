@@ -14,18 +14,18 @@
         <section class="profile">
             <div class="info">
                 <a class="info__avatar" href="">
-                    <img class="info__avatar-image" src="./img/avatar.png" alt="avatar"></a>
+                    <img class="info__avatar-image" src="" alt="avatar"></a>
                 <div class="info-wrapper">
                     <div class="info__data">
-                        <span class="info__data-name">Смирнова Оксана Владимировна</span>
-                        <span class="info__data-position">начальник депертамента улучшения связи</span>
+                        <span class="info__data-name"></span>
+                        <span class="info__data-position"></span>
                     </div>
                     <div class="performance">
                         <div class="performance__earned">
-                            <span class="performance__title">43</span>
+                            <span class="performance__title user-talents"></span>
                             <span class="performance__subtitle">Зароблені таленти</span></div>
                         <div class="performance__thanks">
-                            <span class="performance__title">0</span>
+                            <span class="performance__title thanks-talents"></span>
                             <span class="performance__subtitle">Таленти подяки</span></div>
                     </div>
                 </div>
@@ -34,11 +34,11 @@
         <section class="user-account">
             <ul class="user-account__menu menu">
                 <li class="menu__item"><a class="user-account__menu-link menu__link" href="">навчання</a></li>
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">розвиток</a></li>
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">плани(kpi)</a></li>
+                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">адаптація</a></li>
+                <!--                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">плани(kpi)</a></li>-->
                 <li class="menu__item"><a class="user-account__menu-link menu__link" href="">досягнення</a></li>
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">особистий успіх</a></li>
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">магазин</a></li>
+                <!--                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">особистий успіх</a></li>-->
+                <!--                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">магазин</a></li>-->
             </ul>
             <div class="block-wrapper">
                 <nav class="breadcrumbs">
@@ -53,40 +53,51 @@
                 <div class="info-done">
                     <a class="info-box__link" href="">
                         <div class="info-box">
-                            <span class="info-box__title">87%</span>
-                            <span class="info-box__item">7 з 8</span>
+                            <span class="info-box__title progress-courses">87%</span>
+                            <span class="info-box__item">
+                                <span class="info-box__passed-courses">7</span> з
+                                <span class="info-box__assigned-courses">8</span>
+                            </span>
                             <span class="info-box__item">виконано</span>
-                        </div></a>
+                        </div>
+                    </a>
                     <a class="info-box__link" href="">
-                    <div class="info-box">
-                        <span class="info-box__title">100%</span>
-                        <span class="info-box__item">7 з 7</span>
-                        <span class="info-box__item">успішно</span>
-                    </div></a>
+                        <div class="info-box">
+                            <span class="info-box__title progress-courses-success">60%</span>
+                            <span class="info-box__item">
+                                <span class="info-box__passed-courses-success">7</span> з
+                                <span class="info-box__passed-courses">7</span>
+                            </span>
+                            <span class="info-box__item">успішно</span>
+                        </div>
+                    </a>
                     <a class="info-box__link" href="">
-                    <div class="info-box">
-                        <span class="info-box__title">6</span>
-                        <span class="info-box__item">залишилось задач</span>
-                    </div></a>
+                        <div class="info-box">
+                            <span class="info-box__title assigned-courses">7</span>
+                            <span class="info-box__item">залишилось задач</span>
+                        </div>
+                    </a>
                 </div>
-                <div class="table-wrap">
+                <div id = "info-table" class="table-wrap">
                     <div class="table-row table-head">
-                        <div class="table-cell column-1">Електронний курс</div>
+                        <div class="table-cell column-1 activity-name">Електронний курс</div>
                         <div class="table-cell column-2">Початок</div>
                         <div class="table-cell column-3">Планове завершення</div>
                         <div class="table-cell column-4">Статус</div>
                     </div>
                     <div class="table-row">
-                        <div class="table-cell column-1"><a class="table-cell__link" href="">пам'ятка про порядок евакуації</a>
+                        <div class="table-cell column-1"><a class="table-cell__link" href="">пам'ятка про порядок
+                            евакуації</a>
                         </div>
-                        <div class="table-cell table-cell__black-text column-2">9/Вер/18 18:00</div>
-                        <div class="table-cell table-cell__black-text column-3">12/Вер/18 18:00</div>
+                        <div class="table-cell table-cell__black-text column-2 start-date">9/Вер/18 18:00</div>
+                        <div class="table-cell table-cell__black-text column-3 finish-date">12/Вер/18 18:00</div>
                         <div class="table-cell column-4">в процессі</div>
                     </div>
                     <div class="table-row">
-                        <div class="table-cell column-1"><a class="table-cell__link" href="">конфлікт інтересів</a></div>
-                        <div class="table-cell column-2">не розпочато</div>
-                        <div class="table-cell table-cell__black-text column-3">14/Вер/18 18:00</div>
+                        <div class="table-cell column-1"><a class="table-cell__link" href="">конфлікт інтересів</a>
+                        </div>
+                        <div class="table-cell table-cell__black-text column-2 start-date">не розпочато</div>
+                        <div class="table-cell table-cell__black-text column-3 finish-date">14/Вер/18 18:00</div>
                         <div class="table-cell table-cell__done column-4">призначенний</div>
                     </div>
                 </div>
@@ -106,7 +117,8 @@
                             <div class="table-cell table-cell__done column-4">призначенний</div>
                         </div>
                         <div class="table-row">
-                            <div class="table-cell column-1"><a class="table-cell__link" href="">конфлікт інтересів</a></div>
+                            <div class="table-cell column-1"><a class="table-cell__link" href="">конфлікт інтересів</a>
+                            </div>
                             <div class="table-cell column-2">не розпочато</div>
                             <div class="table-cell table-cell__black-text column-3">14/Вер/18 18:00</div>
                             <div class="table-cell table-cell__done column-4">призначенний</div>
@@ -117,5 +129,7 @@
         </section>
     </section>
 </section>
+
+<script src="index.js"></script>
 </body>
 </html>

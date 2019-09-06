@@ -5,12 +5,13 @@ body {
 
 .user-card {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: -38px auto 0;
     max-width: 1176px;
     font-size: 15px;
     color: #698392;
     font-family: 'Museo Sans Cyrl 500', Arial, Helvetica, sans-serif;
     background-color: #f3f3f4;
+    overflow: hidden;
 }
 
 .background {
@@ -21,11 +22,12 @@ body {
 
 .content {
     display: flex;
+    margin: 0 3% 0 9%;
 }
 
 .profile {
     width: 24%;
-    margin: -111px 6% 0 9%;
+    margin: -111px 6% 0 0;
 }
 
 .info__avatar {
@@ -44,7 +46,7 @@ body {
 
 .info__avatar::before {
     content: '';
-    display: block;
+    display: none;
     width: 30%;
     height: 30%;
     border-radius: 50%;
@@ -64,6 +66,10 @@ body {
     font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
     font-weight: 900;
     margin-bottom: 30px;
+}
+
+.info__data-position {
+    font-family: 'Museo Sans Cyrl 500', Arial, Helvetica, sans-serif;
 }
 
 .performance {
@@ -94,7 +100,7 @@ body {
 
 .user-account {
     width: 76%;
-    margin: 50px 7% 0 0;
+    margin-top: 50px;
 }
 
 .menu {
@@ -106,13 +112,13 @@ body {
 }
 
 .menu__item {
-    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
     color: #a5b5be;
     line-height: 24px;
     list-style: none;
 }
 
 .menu__link {
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #a5b5be;
     font-size: 16px;
@@ -159,6 +165,10 @@ body {
     border-radius: 4px;
 }
 
+.info-box:hover {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25), 0 6px 10px rgba(0, 0, 0, 0.22);
+}
+
 .info-box__title {
     font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
     font-size: 26px;
@@ -197,6 +207,7 @@ body {
 .table-cell {
     width: 20%;
     padding-right: 10px;
+    font-family: 'Museo Sans Cyrl 500', Arial, Helvetica, sans-serif;
 }
 
 .table-cell__link {
@@ -213,7 +224,7 @@ body {
     color: #000;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
     .content {
         display: block;
     }
@@ -274,16 +285,3 @@ body {
         width: 40%;
     }
 }
-
-/*@media only screen and (max-width:480px) {*/
-/*    .info-done {*/
-/*        display: flex;*/
-/*        flex-wrap: nowrap;*/
-/*        flex-direction: column;*/
-/*        width: 130px;*/
-/*    }*/
-
-/*    .info-box {*/
-/*        margin-right: 0;*/
-/*    }*/
-/*}*/
