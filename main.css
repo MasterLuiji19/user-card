@@ -561,6 +561,7 @@ select {
 
     .rewards-menu__reward {
         width: 24%;
+        margin-right: 1%;
     }
 
     /*-------------*/
