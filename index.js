@@ -24,6 +24,9 @@ function createUser(user) {
     document.querySelector(".progress-courses-success").innerText = Math.round(calcSuccessCourse(user.passedCourses) * 100 /
         user.passedCourses.length) + '%';
     document.querySelector(".assigned-courses").innerText = user.assignedCourses.length;
+
+
+
     /////////
     document.querySelectorAll(".table-cell__link").forEach(element => {
         element.textContent = user.passedCourses[0].activityName;
@@ -35,6 +38,9 @@ function createUser(user) {
         element.textContent = user.passedCourses[2].finishDate;
     });
     //////////
+
+
+
 
     const rankingBody = document.querySelectorAll("#info-table > .table-row");
     console.log(rankingBody[1]);
