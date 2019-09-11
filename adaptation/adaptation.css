@@ -2,17 +2,20 @@
 
 .adaptation {
     margin: 20px 0 90px;
-    position: relative;
+}
+
+.adaptation__background {
+    background: url("../img/background_spaces_b.png") no-repeat;
+    background-size: contain;
+    height: 560px;
 }
 
 .planet-menu {
-    background: url("../img/background_spaces_b.png") no-repeat;
-    background-size: contain;
+    width: 740px;
+    position: relative;
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 100%;
-    height: 560px;
 }
 
 .planet-menu__pic1 {
@@ -51,28 +54,28 @@
 }
 
 .planet-menu__pic6 {
-    bottom: 45px;
+    top: 404px;
     right: 151px;
     width: 14%;
     position: absolute;
 }
 
 .planet-menu__pic7 {
-    bottom: 19px;
+    top: 429px;
     right: 295px;
     width: 15%;
     position: absolute;
 }
 
 .planet-menu__pic8 {
-    bottom: 82px;
-    left: 220px;
-    width: 13%;
+    top: 385px;
+    left: 222px;
+    width: 12%;
     position: absolute;
 }
 
 .planet-menu__pic9 {
-    bottom: 191px;
+    top: 294px;
     left: 187px;
     width: 10%;
     position: absolute;
@@ -104,64 +107,68 @@
         margin-bottom: 0;
     }
 
-    .planet-menu {
-        background: url("../img/spaces_mob.png") no-repeat;
+    .adaptation__background {
+        background: url(../img/spaces_mob.png) no-repeat;
         background-size: contain;
         height: 1199px;
     }
 
+    .planet-menu {
+        width: 672px;
+    }
+
     .planet-menu__pic1 {
-        top: 367px;
-        left: 6px;
+        top: 364px;
+        left: 4px;
         width: 20%;
     }
 
     .planet-menu__pic2 {
-        top: 230px;
+        top: 229px;
         left: 65px;
-        width: 23%;
+        width: 21%;
     }
 
     .planet-menu__pic3 {
-        top: 128px;
-        left: 200px;
-        width: 32%;
+        top: 120px;
+        left: 195px;
+        width: 31%;
     }
 
     .planet-menu__pic4 {
-        top: 210px;
-        right: 67px;
-        width: 44%;
+        top: 208px;
+        right: 132px;
+        width: 40%;
     }
 
     .planet-menu__pic5 {
         top: 405px;
-        right: 12px;
-        width: 43%;
+        right: 71px;
+        width: 40%;
     }
 
     .planet-menu__pic6 {
-        bottom: 344px;
-        right: 98px;
-        width: 20%;
+        top: 709px;
+        right: 163px;
+        width: 19%;
     }
 
     .planet-menu__pic7 {
-        bottom: 233px;
-        right: 215px;
-        width: 22%;
+        top: 820px;
+        right: 280px;
+        width: 20%;
     }
 
     .planet-menu__pic8 {
-        bottom: 208px;
-        left: 152px;
-        width: 18%;
+        top: 866px;
+        left: 151px;
+        width: 17%;
     }
 
     .planet-menu__pic9 {
-        bottom: 305px;
+        top: 799px;
         left: 44px;
-        width: 14%;
+        width: 13%;
     }
 
     .planet-menu__pic10 {
@@ -177,61 +184,71 @@
     }
 }
 
-@media only screen and (max-width: 360px) {
-    .planet-menu {
-        background: url("../img/spaces_mob.png") no-repeat;
-        background-size: contain;
+@media only screen and (max-width: 414px) {
+    .adaptation__background {
         height: 647px;
+    }
+
+    .planet-menu {
+        width: 360px;
     }
 
     .planet-menu__pic1 {
         top: 199px;
-        left: 3px;
+        left: 2px;
     }
 
     .planet-menu__pic2 {
         top: 125px;
-        left: 36px;
+        left: 34px;
+        width: 23%;
     }
 
     .planet-menu__pic3 {
-        top: 69px;
-        left: 109px;
+        top: 68px;
+        left: 105px;
+        width: 33%;
     }
 
     .planet-menu__pic4 {
         top: 114px;
-        right: 19px;
+        right: 36px;
+        width: 43%;
     }
 
     .planet-menu__pic5 {
-        top: 219px;
-        right: 6px;
+        top: 218px;
+        right: 2px;
+        width: 44%;
     }
 
     .planet-menu__pic6 {
-        bottom: 185px;
-        right: 52px;
+        top: 385px;
+        right: 50px;
+        width: 20%;
     }
 
     .planet-menu__pic7 {
-        bottom: 125px;
-        right: 98px;
+        top: 442px;
+        right: 112px;
+        width: 23%;
     }
 
     .planet-menu__pic8 {
-        bottom: 113px;
-        left: 81px;
+        top: 468px;
+        left: 78px;
+        width: 19%;
     }
 
     .planet-menu__pic9 {
-        bottom: 163px;
-        left: 24px;
+        top: 430px;
+        left: 21px;
+        width: 15%;
     }
 
     .planet-menu__pic10 {
         top: 320px;
-        left: 52px;
+        left: 51px;
     }
 
     .planet-menu__pic11 {
