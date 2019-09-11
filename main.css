@@ -103,10 +103,6 @@ body {
     margin-top: 50px;
 }
 
-.breadcrumbs {
-
-}
-
 .menu {
     margin: 0;
     padding: 0;
@@ -137,104 +133,6 @@ body {
     color: #2b3341;
 }
 
-
-/*Adaptation block*/
-
-.adaptation {
-    margin: 20px 0 90px;
-    position: relative;
-    display: none;
-
-}
-
-.planet-menu {
-    background: url("./img/background_spaces_b.png")no-repeat;
-    background-size: contain;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 560px;
-}
-
-.planet-menu__pic1 {
-    top: 176px;
-    left: 55px;
-    width: 14%;
-    position: absolute;
-}
-
-.planet-menu__pic2 {
-    top: 78px;
-    left: 143px;
-    width: 16%;
-    position: absolute;
-}
-
-.planet-menu__pic3 {
-    top: 8px;
-    left: 252px;
-    width: 22%;
-    position: absolute;
-}
-
-.planet-menu__pic4 {
-    top: 26px;
-    right: 115px;
-    width: 30%;
-    position: absolute;
-}
-
-.planet-menu__pic5 {
-    top: 176px;
-    right: 13px;
-    width: 29%;
-    position: absolute;
-}
-
-.planet-menu__pic6 {
-    bottom: 45px;
-    right: 151px;
-    width: 14%;
-    position: absolute;
-}
-
-.planet-menu__pic7 {
-    bottom: 19px;
-    right: 295px;
-    width: 15%;
-    position: absolute;
-}
-
-.planet-menu__pic8 {
-    bottom: 82px;
-    left: 220px;
-    width: 13%;
-    position: absolute;
-}
-
-.planet-menu__pic9 {
-    bottom: 191px;
-    left: 187px;
-    width: 10%;
-    position: absolute;
-}
-
-.planet-menu__pic10 {
-    top: 195px;
-    right: 305px;
-    width: 23%;
-    position: absolute;
-}
-
-.planet-menu__pic11 {
-    top: 182px;
-    right: 292px;
-    width: 14%;
-    position: absolute;
-}
-/*-------------------*/
-
 .block-wrapper {
     margin: 40px 0 90px;
     padding: 30px 56px 0 56px;
@@ -244,96 +142,6 @@ body {
 .breadcrumbs {
     margin-bottom: 40px;
 }
-
-/*Rewards block*/
-.rewards__title {
-    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
-    color: #2b3341;
-    font-size: 18px;
-}
-
-.rewards-menu {
-    margin: 20px 0;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.rewards__link {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 25px;
-}
-
-.rewards-menu__reward {
-    width: 17%;
-    margin-right: 18px;
-    cursor: pointer;
-}
-
-.rewards-menu__reward img{
-    width: 80%;
-}
-
-.rewards-menu__available {
-    opacity: 0.4;
-}
-
-.rewards-menu__available:hover {
-    opacity: 1;
-}
-
-.tooltip {
-    cursor: help;
-    text-decoration: none;
-    position: relative;
-    outline: none;
-    color: black;
-    text-align: left;
-}
-
-.tooltip span {
-    margin-left: -999em;
-    position: absolute;
-    font-size: 13px;
-}
-
-.tooltip:hover span {
-    border-radius: 5px 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    left: 1em;
-    top: 2em;
-    z-index: 99;
-    margin-left: 0;
-    padding: 10px;
-    width: 200px;
-}
-
-.classic {
-    background: #def3f6;
-}
-
-/*-------------*/
-
-/*Rewards catalog*/
-
-.rewards-catalog__title {
-    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #2b3341;
-    margin: 20px 0;
-}
-
-select {
-    border: 1px solid #a5b5be;
-    border-radius: 3px;
-    font-size: 15px;
-    color: black;
-    padding: 5px;
-}
-
-/*---------------*/
 
 .info-done {
     margin-bottom: 48px;
@@ -416,9 +224,6 @@ select {
     color: #000;
 }
 
-
-/*Media for mobile version*/
-
 @media only screen and (max-width: 768px) {
     .content {
         display: block;
@@ -454,117 +259,11 @@ select {
         padding-left: 25px;
     }
 
-    /*Adaptation block*/
-
-    /* This styles apply only for adaptation block
-    .content {
-        margin: 0 3% 0 9%;
-    }
-
-    .menu {
-        padding: 0;
-    }
-*/
-    .adaptation {
-        margin-bottom: 0;
-    }
-
-    .planet-menu {
-        background: url("./img/background_spaces_tab.png")no-repeat;
-        background-size: contain;
-        height: 1199px;
-    }
-
-    .planet-menu__pic1 {
-        top: 367px;
-        left: 6px;
-        width: 20%;
-    }
-
-    .planet-menu__pic2 {
-        top: 230px;
-        left: 65px;
-        width: 23%;
-    }
-
-    .planet-menu__pic3 {
-        top: 128px;
-        left: 200px;
-        width: 32%;
-    }
-
-    .planet-menu__pic4 {
-        top: 210px;
-        right: 67px;
-        width: 44%;
-    }
-
-    .planet-menu__pic5 {
-        top: 405px;
-        right: 12px;
-        width: 43%;
-    }
-
-    .planet-menu__pic6 {
-        bottom: 344px;
-        right: 98px;
-        width: 20%;
-    }
-
-    .planet-menu__pic7 {
-        bottom: 233px;
-        right: 215px;
-        width: 22%;
-    }
-
-    .planet-menu__pic8 {
-        bottom: 208px;
-        left: 152px;
-        width: 18%;
-    }
-
-    .planet-menu__pic9 {
-        bottom: 305px;
-        left: 44px;
-        width: 14%;
-    }
-
-    .planet-menu__pic10 {
-        top: 591px;
-        left: 97px;
-        width: 34%;
-    }
-
-    .planet-menu__pic11 {
-        top: 587px;
-        left: 221px;
-        width: 14%;
-    }
-
-
-    /*----------------*/
-
     .block-wrapper {
         margin-bottom: 0;
         padding: 30px 0;
     }
 
-    /*Rewards block*/
-
-    .rewards {
-        padding: 0 25px;
-    }
-
-    .rewards-catalog {
-        padding: 0 25px;
-    }
-
-    .rewards-menu__reward {
-        width: 24%;
-        margin-right: 1%;
-    }
-
-    /*-------------*/
     .info-done {
         flex-wrap: wrap;
         margin: 0 auto;

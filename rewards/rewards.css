@@ -1,0 +1,84 @@
+@import "../main.css";
+
+.rewards__title {
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    color: #2b3341;
+    font-size: 18px;
+}
+
+.rewards-menu {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.rewards__link {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.rewards-menu__reward {
+    width: 17%;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.rewards-menu__reward img {
+    width: 80%;
+}
+
+.rewards-menu__available {
+    opacity: 0.4;
+}
+
+.rewards-menu__available:hover {
+    opacity: 1;
+}
+
+.tooltip {
+    cursor: help;
+    text-decoration: none;
+    position: relative;
+    outline: none;
+    color: black;
+    text-align: left;
+}
+
+.tooltip span {
+    margin-left: -999em;
+    position: absolute;
+    font-size: 13px;
+}
+
+.tooltip:hover span {
+    border-radius: 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    left: 1em;
+    top: 2em;
+    z-index: 99;
+    margin-left: 0;
+    padding: 10px;
+    width: 200px;
+}
+
+.hint {
+    background: #def3f6;
+}
+
+@media only screen and (max-width: 768px) {
+    .rewards {
+        padding: 0 25px;
+    }
+
+    .rewards-catalog {
+        padding: 0 25px;
+    }
+
+    .rewards-menu__reward {
+        width: 24%;
+        margin-right: 1%;
+    }
+}

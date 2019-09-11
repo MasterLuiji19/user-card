@@ -39,9 +39,6 @@ function createUser(user) {
     });
     //////////
 
-
-
-
     const rankingBody = document.querySelectorAll("#info-table > .table-row");
     console.log(rankingBody[1]);
     document.addEventListener("DOMContentLoaded", () => {user.passedCourses});
@@ -50,8 +47,6 @@ function createUser(user) {
     function populateRankings(passedCourses) {
         rankingBody.remove(rankingBody[1]);
     }
-
-    populateRankings(user.passedCourses);
 
 
 

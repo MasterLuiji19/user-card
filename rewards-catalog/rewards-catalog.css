@@ -1,0 +1,17 @@
+@import "../main.css";
+@import "../rewards/rewards.css";
+
+.rewards-catalog__title {
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #2b3341;
+    margin: 20px 0;
+}
+
+select {
+    border: 1px solid #a5b5be;
+    border-radius: 3px;
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+}
