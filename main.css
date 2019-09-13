@@ -25,7 +25,7 @@ body {
     margin: 0 3% 0 9%;
 }
 
-.profile {
+.info {
     width: 24%;
     margin: -111px 6% 0 0;
 }
@@ -83,19 +83,59 @@ body {
 }
 
 .performance__thanks {
-    margin-right: 50px;
+    margin-right: 25px;
 }
 
 .performance__title {
     display: block;
     font-size: 42px;
-    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;;
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
     color: #2b3341;
 }
 
 .performance__subtitle {
     font-family: 'Museo Sans Cyrl 700', Arial, Helvetica, sans-serif;
     font-size: 13px;
+}
+
+.indicator__title {
+    display: block;
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2B3341;
+    margin-bottom: 24px;
+}
+
+.doters {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.doters__title {
+    font-size: 14px;
+}
+
+.doters-wrap {
+    display: flex;
+}
+
+.doters__item {
+    padding-top: 8px;
+    margin-right: 12px;
+}
+
+.doters__item::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #229fff;
+}
+
+.doters__item-gray::before {
+    background-color: #c9d2da;
 }
 
 .user-account {
@@ -230,23 +270,47 @@ body {
         margin: 0 auto;
     }
 
-    .profile {
-        width: 80%;
-        margin: -79px 6% 0 6%;
-    }
-
     .info {
-        display: flex;
-        justify-content: space-between;
+        width: 80%;
+        margin: -79px auto 50px;
     }
 
     .info-wrapper {
-        width: 40%;
-        margin: 79px 25px 0;
+        display: flex;
     }
 
-    .info__data-name {
-        margin-bottom: 15px;
+    .info-wrap {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .info__avatar {
+        margin-right: 35px;
+    }
+
+    .info__data {
+        margin: 95px 0 0;
+    }
+
+    .indicators {
+        margin-right: 35px;
+    }
+
+    .performance {
+        flex-direction: column;
+        margin: 0;
+        max-width: 120px;
+    }
+
+    .performance__earned {
+        border-right: none;
+        border-bottom: 1px solid #eef0f6;
+        padding-bottom: 10px;
+    }
+
+    .performance__thanks {
+        padding-top: 10px;
     }
 
     .user-account {
@@ -256,7 +320,12 @@ body {
     }
 
     .menu {
-        padding-left: 25px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .menu__item {
+        text-align: center;
     }
 
     .block-wrapper {
