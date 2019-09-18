@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rewards</title>
-    <link rel="stylesheet" href="./rewards.css">
+    <title>Values</title>
+    <link rel="stylesheet" href="./values.css">
     <link rel="stylesheet" href="../fonts/MuseoSans/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -75,57 +75,76 @@
             <div class="block-wrapper">
                 <nav class="breadcrumbs">
                     <ul class="breadcrumbs__menu menu">
-                        <li class="menu__item"><a class="menu__link" href="../values/values.html">цінності</a></li>
-                        <li class="menu__item"><a class="menu__link" href="./rewards.html">нагороди</a></li>
+                        <li class="menu__item"><a class="menu__link" href="./values.html">цінності</a></li>
+                        <li class="menu__item"><a class="menu__link" href="../rewards/rewards.html">нагороди</a></li>
                         <li class="menu__item"><a class="menu__link" href="../rewards-catalog/rewards-catalog.html">каталог нагород</a></li>
                     </ul>
                 </nav>
-
-                <div class="rewards">
-                    <div class="rewards__title">Здобуті нагороди</div>
-                    <div class="rewards-menu">
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/001-goal.png" alt="">
-                                <span class="hint">Пацанчик шо працював краще всіх. На нього треба рівнятись.</span></a>
-                            <p>Робітник місяця</p>
-                        </div>
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/002-flag.png" alt="">
-                                <span class="hint">Молодець. Шо тут казать</span></a>
-                            <p>Молодець</p>
-                        </div>
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/004-cloud.png" alt="">
-                                <span class="hint">Молодець. Шо тут казать</span></a>
-                            <p>Так тримати</p></div>
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/005-presentation.png" alt="">
-                                <span class="hint">Молодець. Шо тут казать</span></a>
-                            <p>Супір-пупір</p></div>
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/007-briefcase.png" alt="">
-                                <span class="hint">Молодець. Шо тут казать</span></a>
-                            <p>Агонь</p></div>
-                    </div>
-                    <div class="rewards-menu">
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/008-rating.png" alt="">
-                                <span class="hint">Молодець. Шо тут казать</span></a>
-                            <p>Робітник місяця</p></div>
-                        <div class="rewards-menu__reward"><img src="../img/icons/009-rating-1.png" alt="">
-                            <p>Молодець</p></div>
-                        <div class="rewards-menu__reward"><img src="../img/icons/010-badge.png" alt="">
-                            <p>Так тримати</p></div>
-                        <div class="rewards-menu__reward"><img src="../img/icons/015-rating-3.png" alt="">
-                            <p>Супір-пупір</p></div>
-                        <div class="rewards-menu__reward"><img src="../img/icons/017-flag-1.png" alt="">
-                            <p>Агонь</p></div>
+                <div class="wrapper-button">
+                    <button class="like-button">Подякувати колезі</button>
+                </div>
+                <ul class="menu-likes">
+                    <li class="menu-likes__item">
+                        <img class="menu-likes__pic" src="../img/like-icon/like01.png" alt="like-pic">
+                        <span class="menu-likes__sum">0</span>
+                        <span class="menu-likes__title">Клієнти - наша пристрасть</span></li>
+                    <li class="menu-likes__item">
+                        <img class="menu-likes__pic" src="../img/like-icon/like02.png" alt="like-pic">
+                        <span class="menu-likes__sum">0</span>
+                        <span class="menu-likes__title">Чесність</span></li>
+                    <li class="menu-likes__item">
+                        <img class="menu-likes__pic" src="../img/like-icon/like03.png" alt="like-pic">
+                        <span class="menu-likes__sum">0</span>
+                        <span class="menu-likes__title">Інноваційність</span></li>
+                    <li class="menu-likes__item">
+                        <img class="menu-likes__pic" src="../img/like-icon/like04.png" alt="like-pic">
+                        <span class="menu-likes__sum">0</span>
+                        <span class="menu-likes__title">Підприємницький дух</span></li>
+                    <li class="menu-likes__item">
+                        <img class="menu-likes__pic" src="../img/like-icon/like05.png" alt="like-pic">
+                        <span class="menu-likes__sum">3</span>
+                        <span class="menu-likes__title">Співпраця</span></li>
+                    <li class="menu-likes__item">
+                        <img class="menu-likes__pic" src="../img/like-icon/like06.png" alt="like-pic">
+                        <span class="menu-likes__sum">3</span>
+                        <span class="menu-likes__title">Інші подяки</span></li>
+                </ul>
+                <div class="values-info">
+                    <p class="values-info__description">Чути клієнта, навчатися у клієнта та ставати кращими.</p>
+                    <div class="values-info__list">
+                        <table>
+                            <thead>
+                            <tr>
+                                <td>Дата</td>
+                                <td>ПІБ</td>
+                                <td>Коментар</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td data-label="Дата">13.07.2019</td>
+                                <td data-label="ПІБ">Іванов Іван Іванович</td>
+                                <td data-label="Коментар">Дуже довгий коментар який тестує таблицю на дожину блока.</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Дата">15.07.2019</td>
+                                <td data-label="ПІБ">Сидоров Сидор Сидорович</td>
+                                <td data-label="Коментар">Коментар 1</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Дата">19.07.2019</td>
+                                <td data-label="ПІБ">Петров Петро Петрович</td>
+                                <td data-label="Коментар">Коментар 1</td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
-
         </section>
     </section>
 </section>
+
+<script src="./values.js"></script>
 </body>
 </html>

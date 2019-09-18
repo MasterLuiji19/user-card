@@ -1,13 +1,14 @@
 @import "../main.css";
 
 .adaptation {
-    margin: 20px 0 90px;
+    margin: 40px 0 90px;
 }
 
 .adaptation__background {
     background: url("../img/background_spaces_b.png") no-repeat;
     background-size: contain;
     height: 560px;
+    margin: 40px 0 90px;
 }
 
 .planet-menu {

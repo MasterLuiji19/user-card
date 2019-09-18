@@ -33,12 +33,13 @@ body {
 .info__avatar {
     position: relative;
     display: block;
+    border-radius: 50%;
     width: 222px;
-    height: 100%;
+    height: 222px;
+    overflow: hidden;
 }
 
 .info__avatar-image {
-    border-radius: 50%;
     vertical-align: bottom;
     width: 100%;
     height: auto;
@@ -175,7 +176,7 @@ body {
 
 .block-wrapper {
     margin: 40px 0 90px;
-    padding: 30px 56px 0 56px;
+    padding: 30px 56px;
     background-color: #fff;
 }
 
@@ -320,12 +321,7 @@ body {
     }
 
     .menu {
-        max-width: 500px;
-        margin: 0 auto;
-    }
-
-    .menu__item {
-        text-align: center;
+        padding-left: 25px;
     }
 
     .block-wrapper {

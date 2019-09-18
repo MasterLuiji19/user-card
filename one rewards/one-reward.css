@@ -1,0 +1,19 @@
+@import "../main.css";
+
+.one-reward {
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.one-reward__pic img{
+    width: 150px;
+    margin-right: 25px;
+}
+
+.one-reward__title {
+    display: block;
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2B3341;
+    margin-bottom: 20px;
+}

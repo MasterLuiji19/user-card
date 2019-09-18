@@ -1,0 +1,63 @@
+@import "../main.css";
+
+.user-card {
+    height: 100vh;
+}
+
+.info-box {
+    text-align: center;
+    padding: 18px 10px;
+}
+
+.info-box__title {
+    margin: 15px 0 0;
+}
+
+.progress {
+    padding: 0 0 30px;
+    max-width: 500px;
+}
+
+.progress__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.progress__item-title {
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    margin-right: 15px;
+    width: 60%;
+}
+
+.circle-wrap {
+    display: flex;
+    width: 40%;
+    min-width: 40%;
+    flex-grow: 1;
+}
+
+.circle__item {
+    margin-right: 12px;
+}
+
+.circle__item::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #229fff;
+}
+
+.circle__item-gray::before {
+    background-color: #c9d2da;
+}
+
+.circle__item-red::before {
+    background-color: #ff0000;
+}
+
+.circle__item-half::before {
+    background-image: linear-gradient(to bottom, rgb(201, 210, 218) 50%, rgba(255, 255, 255, 0) 50%);
+}

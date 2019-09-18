@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rewards</title>
-    <link rel="stylesheet" href="./rewards.css">
+    <title>KPI</title>
+    <link rel="stylesheet" href="./kpi.css">
     <link rel="stylesheet" href="../fonts/MuseoSans/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -66,64 +66,67 @@
             <ul class="user-account__menu menu">
                 <li class="menu__item"><a class="user-account__menu-link menu__link" href="../index.html">навчання</a></li>
                 <li class="menu__item"><a class="user-account__menu-link menu__link" href="../development/development.html">розвиток</a></li>
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="../kpi/kpi.html">плани(kpi)</a></li>
+                <li class="menu__item"><a class="user-account__menu-link menu__link" href="#">плани(kpi)</a></li>
                 <li class="menu__item"><a class="user-account__menu-link menu__link" href="../adaptation/adaptation.html">адаптація</a></li>
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="#">досягнення</a></li>
+                <li class="menu__item"><a class="user-account__menu-link menu__link" href="../rewards/rewards.html">досягнення</a></li>
                 <!--                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">особистий успіх</a></li>-->
                 <!--                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">магазин</a></li>-->
             </ul>
             <div class="block-wrapper">
-                <nav class="breadcrumbs">
-                    <ul class="breadcrumbs__menu menu">
-                        <li class="menu__item"><a class="menu__link" href="../values/values.html">цінності</a></li>
-                        <li class="menu__item"><a class="menu__link" href="./rewards.html">нагороди</a></li>
-                        <li class="menu__item"><a class="menu__link" href="../rewards-catalog/rewards-catalog.html">каталог нагород</a></li>
-                    </ul>
-                </nav>
-
-                <div class="rewards">
-                    <div class="rewards__title">Здобуті нагороди</div>
-                    <div class="rewards-menu">
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/001-goal.png" alt="">
-                                <span class="hint">Пацанчик шо працював краще всіх. На нього треба рівнятись.</span></a>
-                            <p>Робітник місяця</p>
-                        </div>
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/002-flag.png" alt="">
-                                <span class="hint">Молодець. Шо тут казать</span></a>
-                            <p>Молодець</p>
-                        </div>
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/004-cloud.png" alt="">
-                                <span class="hint">Молодець. Шо тут казать</span></a>
-                            <p>Так тримати</p></div>
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/005-presentation.png" alt="">
-                                <span class="hint">Молодець. Шо тут казать</span></a>
-                            <p>Супір-пупір</p></div>
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/007-briefcase.png" alt="">
-                                <span class="hint">Молодець. Шо тут казать</span></a>
-                            <p>Агонь</p></div>
-                    </div>
-                    <div class="rewards-menu">
-                        <div class="rewards-menu__reward">
-                            <a class="tooltip" href="#"><img src="../img/icons/008-rating.png" alt="">
-                                <span class="hint">Молодець. Шо тут казать</span></a>
-                            <p>Робітник місяця</p></div>
-                        <div class="rewards-menu__reward"><img src="../img/icons/009-rating-1.png" alt="">
-                            <p>Молодець</p></div>
-                        <div class="rewards-menu__reward"><img src="../img/icons/010-badge.png" alt="">
-                            <p>Так тримати</p></div>
-                        <div class="rewards-menu__reward"><img src="../img/icons/015-rating-3.png" alt="">
-                            <p>Супір-пупір</p></div>
-                        <div class="rewards-menu__reward"><img src="../img/icons/017-flag-1.png" alt="">
-                            <p>Агонь</p></div>
-                    </div>
-                </div>
+                <table>
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th class="th-gray">Попередні</th>
+                        <th></th>
+                        <th></th>
+                        <th>Поточні</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th class="th-gray">План</th>
+                        <th class="th-gray">Факт</th>
+                        <th class="th-gray">%</th>
+                        <th>План</th>
+                        <th>Факт</th>
+                        <th>%</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>URSELL</th>
+                        <td class="th-gray" data-label="План">300</td>
+                        <td class="th-gray" data-label="Факт">210</td>
+                        <td class="th-gray" data-label="%">70</td>
+                        <td data-label="План">300</td>
+                        <td data-label="Факт">300</td>
+                        <td data-label="%">100</td>
+                    </tr>
+                    <tr>
+                        <th>НКП</th>
+                        <td class="th-gray" data-label="План">100</td>
+                        <td class="th-gray" data-label="Факт">80</td>
+                        <td class="th-gray" data-label="%">80</td>
+                        <td data-label="План">100</td>
+                        <td data-label="Факт">95</td>
+                        <td data-label="%">95</td>
+                    </tr>
+                    <tr>
+                        <th>ДПК</th>
+                        <td class="th-gray" data-label="План">500</td>
+                        <td class="th-gray" data-label="Факт">300</td>
+                        <td class="th-gray" data-label="%">60</td>
+                        <td data-label="План">500</td>
+                        <td data-label="Факт">400</td>
+                        <td data-label="%">80</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
-
         </section>
     </section>
 </section>
