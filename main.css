@@ -114,6 +114,7 @@ body {
 }
 
 .doters__title {
+    font-family: 'Museo Sans Cyrl 700', Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
@@ -285,6 +286,11 @@ td.name {
 
     .info__avatar {
         margin-right: 35px;
+        border-radius: 0;
+    }
+
+    .info__avatar-image {
+        border-radius: 50%;
     }
 
     .info__data {
@@ -343,3 +349,8 @@ td.name {
 
 }
 
+@media only screen and (max-width: 360px) {
+    .info__avatar {
+        margin-right: 0;
+    }
+}

@@ -1,2 +1,21 @@
 @import "../../main.css";
 
+.info-box {
+    justify-content: space-between;
+    text-align: center;
+    color: #2b3341;
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+}
+
+.info-card span {
+    display: block;
+}
+
+.info-card__value {
+    font-size: 32px;
+}
+
+.info-card__text {
+    font-family: 'Museo Sans Cyrl 500', Arial, Helvetica, sans-serif;
+    text-align: left;
+}

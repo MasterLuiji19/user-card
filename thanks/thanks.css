@@ -108,7 +108,7 @@ textarea {
     background-color: #229fff;
     color: #ffffff;
     border-radius: 20px;
-    text-decoration: none;
+    border: none;
     float: right;
 }
 
