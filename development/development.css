@@ -1,9 +1,5 @@
 @import "../main.css";
 
-.user-card {
-    height: 100vh;
-}
-
 .info-box {
     text-align: center;
     padding: 18px 10px;
