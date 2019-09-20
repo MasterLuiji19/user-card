@@ -1,0 +1,17 @@
+@import '../../main.css';
+
+.avatar-image {
+    width: 40px;
+    border-radius: 50%;
+}
+
+table th, table td {
+    text-align: center;
+    padding: 7px 18px;
+}
+
+td:nth-child(1),
+td:nth-child(2) {
+    max-width: 30px;
+}
+
