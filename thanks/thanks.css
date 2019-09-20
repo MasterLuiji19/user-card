@@ -1,0 +1,125 @@
+@import "../main.css";
+
+.user-select {
+    display: flex;
+    margin: 15px 0;
+}
+
+#user {
+    display: block;
+    padding: 7px 16px;
+    border-radius: 4px;
+    background-color: #EEF0F6;
+}
+
+#user option {
+    font-size: 15px;
+    border-radius: 4px;
+    padding-top: 13px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.wrapper-form {
+    width: 42%;
+}
+
+.radio-button {
+    margin-bottom: 25px;
+}
+
+.radio-button__input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 7px;
+}
+
+.radio-button__input + label {
+    position: relative;
+    padding: 0 0 0 35px;
+    cursor: pointer;
+}
+
+.radio-button__input + label:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #C9D2DA;
+    border-radius: 50%;
+    background: #FFF;
+}
+
+.radio-button__input + label:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2396FD;
+    opacity: 0;
+    transition: .2s;
+}
+
+.radio-button__input:checked + label:after {
+    opacity: 1;
+}
+
+.radio-button__pic {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.comments {
+    width: 41%;
+    margin-bottom: 20px;
+}
+
+.comments__label {
+    margin-bottom: 5px;
+}
+
+textarea {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #f3f3f4;
+    border-color: #f3f3f4;
+    resize: none;
+}
+
+.submit-button {
+    height: 32px;
+}
+
+.submit-form {
+    display: block;
+    padding: 7px 15px;
+    background-color: #229fff;
+    color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    float: right;
+}
+
+.submit-form:hover {
+    border-color: currentColor;
+    background-color: #1382E5;
+}
+
+.submit-form:active {
+    background-color: #0371D4;
+}
+
+
+

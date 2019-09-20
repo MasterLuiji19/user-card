@@ -1,9 +1,5 @@
 @import "../main.css";
 
-.user-card {
-    height: 100vh;
-}
-
 .rewards__title {
     font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
     color: #2b3341;

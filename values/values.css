@@ -1,29 +1,30 @@
 @import "../main.css";
 
 .wrapper-button {
-    margin: 20px 0;
+    margin: 27px 0;
 }
 
 .like-button {
-    border: none;
-    font: inherit;
-    cursor: pointer;
     padding: 7px 15px;
-    background-color: #229fff;
+    background-color: #2396FD;
     color: #ffffff;
     border-radius: 20px;
-    outline: none;
-}
-
-.like-button:active {
-    transform: translateY(1px);
-    filter: saturate(150%);
+    text-decoration: none;
 }
 
 .like-button:hover {
-    color: #3b4952;
     border-color: currentColor;
-    background-color: #fdda24;
+    background-color: #1382E5;
+}
+
+.like-button:active {
+    background-color: #0371D4;
+}
+
+.button-back {
+    display: none;
+    text-decoration: none;
+    color: #698392;
 }
 
 .menu-likes {
@@ -39,9 +40,10 @@
 }
 
 .menu-likes__pic {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 .menu-likes__sum {
@@ -50,10 +52,6 @@
     background-color: #f3f3f4;
     text-align: center;
     margin-right: 25px;
-}
-
-.menu-likes__title {
-    font-size: 17px;
 }
 
 .values-info__description {
