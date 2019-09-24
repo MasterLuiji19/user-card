@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>KPI</title>
-    <link rel="stylesheet" href="./kpi.css">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./shop.css">
     <link rel="stylesheet" href="../fonts/MuseoSans/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -21,7 +21,7 @@
                     </div>
                     <div class="info__data">
                         <span class="info__data-name">ИТ Колорис Горобец</span>
-                        <span class="info__data-position">Виконавець</span>
+                        <span class="info__data-position">Виконавець/span>
                     </div>
                 </div>
                 <div class="info-wrapper info-wrap">
@@ -70,71 +70,38 @@
                 <ul class="user-account__menu menu">
                     <li class="menu__item"><a class="user-account__menu-link menu__link" href="../index.html">навчання</a></li>
                     <li class="menu__item"><a class="user-account__menu-link menu__link" href="../development/development.html">розвиток</a></li>
-                    <li class="menu__item"><a class="user-account__menu-link menu__link" href="#">плани(kpi)</a></li>
+                    <li class="menu__item"><a class="user-account__menu-link menu__link" href="../kpi/kpi.html">плани(kpi)</a></li>
                     <li class="menu__item"><a class="user-account__menu-link menu__link" href="../adaptation/adaptation.html">адаптація</a></li>
                     <li class="menu__item"><a class="user-account__menu-link menu__link" href="../values/values.html">досягнення</a></li>
                     <li class="menu__item"><a class="user-account__menu-link menu__link" href="../own-success/talents/talents.html">особистий успіх</a></li>
-                    <!--                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">магазин</a></li>-->
+                    <li class="menu__item"><a class="user-account__menu-link menu__link" href="./shop.html">магазин</a></li>
                 </ul>
                 <div class="block-wrapper">
-                    <table>
-                        <thead>
-                        <tr>
-                            <th></th>
-                            <th></th>
-                            <th class="th-gray">Попередні</th>
-                            <th></th>
-                            <th></th>
-                            <th>Поточні</th>
-                            <th></th>
-                        </tr>
-                        </thead>
-                        <thead>
-                        <tr>
-                            <th></th>
-                            <th class="th-gray">План</th>
-                            <th class="th-gray">Факт</th>
-                            <th class="th-gray">%</th>
-                            <th>План</th>
-                            <th>Факт</th>
-                            <th>%</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <th>URSELL</th>
-                            <td class="th-gray" data-label="План">300</td>
-                            <td class="th-gray" data-label="Факт">210</td>
-                            <td class="th-gray" data-label="%">70</td>
-                            <td data-label="План">300</td>
-                            <td data-label="Факт">300</td>
-                            <td data-label="%">100</td>
-                        </tr>
-                        <tr>
-                            <th>НКП</th>
-                            <td class="th-gray" data-label="План">100</td>
-                            <td class="th-gray" data-label="Факт">80</td>
-                            <td class="th-gray" data-label="%">80</td>
-                            <td data-label="План">100</td>
-                            <td data-label="Факт">95</td>
-                            <td data-label="%">95</td>
-                        </tr>
-                        <tr>
-                            <th>ДПК</th>
-                            <td class="th-gray" data-label="План">500</td>
-                            <td class="th-gray" data-label="Факт">300</td>
-                            <td class="th-gray" data-label="%">60</td>
-                            <td data-label="План">500</td>
-                            <td data-label="Факт">400</td>
-                            <td data-label="%">80</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <nav class="breadcrumbs">
+                        <ul class="breadcrumbs__menu menu">
+                            <li class="menu__item"><a class="menu__link" href="">товари</a></li>
+                            <li class="menu__item"><a class="menu__link" href="">кошик</a></li>
+                            <li class="menu__item"><a class="menu__link" href="">замовлення</a></li>
+                        </ul>
+                    </nav>
+                    <div class="shop-card">
+                        <img class="product-image" src="../img/product.png" alt="product-pic">
+                        <div class="product-name">
+                            <span class="product-name__title">Чашка брендована, синя</span>
+                            <span class="product-name__description">опис товару</span>
+                        </div>
+                        <div class="shop-card__price">
+                            <div class="price-item">
+                                <span class="price-item__sum">20</span>
+                                <span class="price-item__currency">талентів</span>
+                            </div>
+                            <a href="">Замовити</a>
+                        </div>
+                    </div>
                 </div>
             </section>
         </section>
     </section>
 </div>
-
 </body>
 </html>

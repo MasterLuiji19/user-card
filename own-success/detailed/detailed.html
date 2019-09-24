@@ -8,192 +8,215 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<section class="user-card">
-    <div class="background"></div>
-    <section class="content">
-        <section class="info">
-            <div class="info-wrapper">
-                <a class="info__avatar" href="">
-                    <img class="info__avatar-image" src="../../img/avatar.png" alt="avatar"></a>
-                <div class="info__data">
-                    <span class="info__data-name">ИТ Колорис Горобец</span>
-                    <span class="info__data-position">Виконавець</span>
-                </div>
-            </div>
-            <div class="info-wrapper info-wrap">
-                <div class="performance">
-                    <div class="performance__earned">
-                        <span class="performance__title user-talents">3</span>
-                        <span class="performance__subtitle">Зароблені таленти</span>
+<div class="wrapper">
+    <section class="user-card">
+        <div class="background"></div>
+        <section class="content">
+            <section class="info">
+                <div class="info-wrapper">
+                    <div class="avatar">
+                        <div class="avatar__wrap">
+                            <img class="avatar__image" src="../../img/avatar.png" alt="avatar"></div>
+                        <span class="avatar__reward"></span>
                     </div>
-                    <div class="performance__thanks">
-                        <span class="performance__title thanks-talents">0</span>
-                        <span class="performance__subtitle">Таленти подяки</span>
+                    <div class="info__data">
+                        <span class="info__data-name">ИТ Колорис Горобец</span>
+                        <span class="info__data-position">Виконавець</span>
                     </div>
                 </div>
-                <div class="indicators">
-                    <span class="indicator__title">мої показники</span>
-                    <div class="indicators__block">
-                        <div class="doters">
-                            <span class="doters__title">Ефективність</span>
-                            <div class="doters-wrap">
-                                <span class="doters__item"></span>
-                                <span class="doters__item"></span>
-                                <span class="doters__item doters__item-gray"></span>
-                            </div>
+                <div class="info-wrapper info-wrap">
+                    <div class="performance">
+                        <div class="performance__earned">
+                            <span class="performance__title user-talents">3</span>
+                            <span class="performance__subtitle">Зароблені таленти</span>
                         </div>
-                        <div class="doters">
-                            <span class="doters__title">Знання</span>
-                            <div class="doters-wrap">
-                                <span class="doters__item"></span>
-                                <span class="doters__item"></span>
-                                <span class="doters__item"></span>
-                            </div>
+                        <div class="performance__thanks">
+                            <span class="performance__title thanks-talents">0</span>
+                            <span class="performance__subtitle">Таленти подяки</span>
                         </div>
-                        <div class="doters">
-                            <span class="doters__title">Сертифікати</span>
-                            <div class="doters-wrap">
-                                <span class="doters__item"></span>
-                                <span class="doters__item"></span>
-                                <span class="doters__item"></span>
+                    </div>
+                    <div class="indicators">
+                        <span class="indicator__title">мої показники</span>
+                        <div class="indicators__block">
+                            <div class="doters">
+                                <span class="doters__title">Ефективність</span>
+                                <div class="doters-wrap">
+                                    <span class="doters__item"></span>
+                                    <span class="doters__item"></span>
+                                    <span class="doters__item doters__item-gray"></span>
+                                </div>
+                            </div>
+                            <div class="doters">
+                                <span class="doters__title">Знання</span>
+                                <div class="doters-wrap">
+                                    <span class="doters__item"></span>
+                                    <span class="doters__item"></span>
+                                    <span class="doters__item"></span>
+                                </div>
+                            </div>
+                            <div class="doters">
+                                <span class="doters__title">Сертифікати</span>
+                                <div class="doters-wrap">
+                                    <span class="doters__item"></span>
+                                    <span class="doters__item"></span>
+                                    <span class="doters__item"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="user-account">
-            <ul class="user-account__menu menu">
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../index.html">навчання</a></li>
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../development/development.html">розвиток</a></li>
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../kpi/kpi.html">плани(kpi)</a></li>
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../adaptation/adaptation.html">адаптація</a></li>
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../values/values.html">досягнення</a></li>
-                <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../own-success/talents/talents.html">особистий успіх</a></li>
-                <!--                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">магазин</a></li>-->
-            </ul>
-            <div class="block-wrapper">
-                <nav class="breadcrumbs">
-                    <ul class="breadcrumbs__menu menu">
-                        <li class="menu__item"><a class="menu__link" href="../talents/talents.html">за талентами</a></li>
-                        <li class="menu__item"><a class="menu__link" href="../common/common.html">узагальнений</a></li>
-                        <li class="menu__item"><a class="menu__link" href="./detailed.html">детальний</a></li>
-                    </ul>
-                </nav>
-                <div>
-
-                    <div class="detail-filter">
-                        <label class="type" for="type">Оберіть тип рейтингу:</label>
-                        <select id="type" required>
-                            <option></option>
-                            <option value="type_01">за талентами</option>
-                            <option value="type_02">узагальнений</option>
-                        </select>
-                        <label class="organisation" for="organisation">Оберіть тип рейтингу:</label>
-                        <select id="organisation" required>
-                            <option></option>
-                            <option value="organisation_01">Дилери монобренд</option>
-                            <option value="organisation_02">Дистрибутори</option>
-                        </select>
-                        <label class="group" for="group">Оберіть тип рейтингу:</label>
-                        <select id="group" required>
-                            <option></option>
-                            <option value="group_01">HEADS OF SECTORS</option>
-                            <option value="group_02">shop supervisor</option>
-                            <option value="group_03">Сотрудники FTTB</option>
-                            <option value="group_04">Менеджеры по дистрибуции</option>
-                            <option value="group_05">Дистрибуторы</option>
-                            <option value="group_06">Сетевые ТП</option>
-                            <option value="group_07">Супервайзеры дистр</option>
-                            <option value="group_08">Active sales</option>
-                        </select>
-                        <label class="supervisor" for="supervisor">Оберіть функціонального керівника:</label>
-                        <select id="supervisor" required>
-                            <option></option>
-                            <option value="supervisor_01">керівник01</option>
-                            <option value="supervisor_02">керівник02</option>
-                        </select>
-                        <div class="period">
-                            <span>Період з</span>
-                            <label class="month" for="month">місяць</label>
-                            <select id="month" required>
-                                <option></option>
-                                <option value="January">Січень</option>
-                                <option value="February">Лютий</option>
-                                <option value="March">Березень</option>
-                                <option value="April">Квітень</option>
-                                <option value="May">Травень</option>
-                                <option value="June">Червень</option>
-                                <option value="July">Липень</option>
-                                <option value="August">Серпень</option>
-                                <option value="September">Вересень</option>
-                                <option value="October">Жовтень</option>
-                                <option value="November">Листопад</option>
-                                <option value="December">Грудень</option>
-                            </select>
-                            <label class="year" for="year">рік</label>
-                            <select id="year" required>
-                                <option></option>
-                                <option value="year_2018">2018</option>
-                                <option value="year_2019">2019</option>
-                            </select>
+            </section>
+            <section class="user-account">
+                <ul class="user-account__menu menu">
+                    <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../index.html">навчання</a></li>
+                    <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../development/development.html">розвиток</a></li>
+                    <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../kpi/kpi.html">плани(kpi)</a></li>
+                    <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../adaptation/adaptation.html">адаптація</a></li>
+                    <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../values/values.html">досягнення</a></li>
+                    <li class="menu__item"><a class="user-account__menu-link menu__link" href="../../own-success/talents/talents.html">особистий успіх</a></li>
+                    <!--                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">магазин</a></li>-->
+                </ul>
+                <div class="block-wrapper">
+                    <nav class="breadcrumbs">
+                        <ul class="breadcrumbs__menu menu">
+                            <li class="menu__item"><a class="menu__link" href="../talents/talents.html">за талентами</a></li>
+                            <li class="menu__item"><a class="menu__link" href="../common/common.html">узагальнений</a></li>
+                            <li class="menu__item"><a class="menu__link" href="./detailed.html">детальний</a></li>
+                        </ul>
+                    </nav>
+                    <div class="filter-wrapper">
+                        <div class="detail-filter">
+                            <div class="detail-filter__item">
+                                <label class="detail-filter__item_name" for="type">Оберіть тип рейтингу:</label>
+                                <select class="detail-filter_item_choice" id="type" required>
+                                    <option></option>
+                                    <option value="type_01">за талентами</option>
+                                    <option value="type_02">узагальнений</option>
+                                </select>
+                            </div>
+                            <div class="detail-filter__item">
+                                <label class="detail-filter__item_name" for="organisation">Оберіть організацію:</label>
+                                <select class="detail-filter_item_choice" id="organisation" required>
+                                    <option></option>
+                                    <option value="organisation_01">Дилери монобренд</option>
+                                    <option value="organisation_02">Дистрибутори</option>
+                                </select>
+                            </div>
+                            <div class="detail-filter__item">
+                                <label class="detail-filter__item_name" for="group">Оберіть групу:</label>
+                                <select class="detail-filter_item_choice" id="group" required>
+                                    <option></option>
+                                    <option value="group_01">HEADS OF SECTORS</option>
+                                    <option value="group_02">shop supervisor</option>
+                                    <option value="group_03">Сотрудники FTTB</option>
+                                    <option value="group_04">Менеджеры по дистрибуции</option>
+                                    <option value="group_05">Дистрибуторы</option>
+                                    <option value="group_06">Сетевые ТП</option>
+                                    <option value="group_07">Супервайзеры дистр</option>
+                                    <option value="group_08">Active sales</option>
+                                </select>
+                            </div>
+                            <div class="detail-filter__item">
+                                <label class="detail-filter__item_name" for="supervisor">Оберіть функціонального керівника:</label>
+                                <select class="detail-filter_item_choice" id="supervisor" required>
+                                    <option></option>
+                                    <option value="supervisor_01">керівник01</option>
+                                    <option value="supervisor_02">керівник02</option>
+                                </select>
+                            </div>
+                            <div class="period">
+                                <div class="detail-filter__item">
+                                    <span class="detail-filter__item_name">Період з</span>
+                                    <div class="detail-filter_item_choice period-data">
+                                        <label class="month" for="first-month">місяць</label>
+                                        <select id="first-month" required>
+                                            <option></option>
+                                            <option value="January">Січень</option>
+                                            <option value="February">Лютий</option>
+                                            <option value="March">Березень</option>
+                                            <option value="April">Квітень</option>
+                                            <option value="May">Травень</option>
+                                            <option value="June">Червень</option>
+                                            <option value="July">Липень</option>
+                                            <option value="August">Серпень</option>
+                                            <option value="September">Вересень</option>
+                                            <option value="October">Жовтень</option>
+                                            <option value="November">Листопад</option>
+                                            <option value="December">Грудень</option>
+                                        </select>
+                                        <label class="year" for="first-year">рік</label>
+                                        <select id="first-year" required>
+                                            <option></option>
+                                            <option value="year_2018">2018</option>
+                                            <option value="year_2019">2019</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="detail-filter__item">
+                                    <span class="detail-filter__item_name">по</span>
+                                    <div class="detail-filter_item_choice period-data">
+                                        <label class="month" for="last-month">місяць</label>
+                                        <select id="last-month" required>
+                                            <option></option>
+                                            <option value="January">Січень</option>
+                                            <option value="February">Лютий</option>
+                                            <option value="March">Березень</option>
+                                            <option value="April">Квітень</option>
+                                            <option value="May">Травень</option>
+                                            <option value="June">Червень</option>
+                                            <option value="July">Липень</option>
+                                            <option value="August">Серпень</option>
+                                            <option value="September">Вересень</option>
+                                            <option value="October">Жовтень</option>
+                                            <option value="November">Листопад</option>
+                                            <option value="December">Грудень</option>
+                                        </select>
+                                        <label class="year" for="last-year">рік</label>
+                                        <select id="last-year" required>
+                                            <option></option>
+                                            <option value="year_2018">2018</option>
+                                            <option value="year_2019">2019</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
+                        <div class="detail-filter__buttons">
+                            <button class="detail-filter__button">Побудувати</button>
+                            <button class="detail-filter__button">Експорт в Excel</button>
+                        </div>
                     </div>
-
-                    <form action="#">
-                        <div class="wrapper-form">
-                            <p>Оберіть цінність:</p>
-                            <div class="radio-button">
-                                <input class="radio-button__input" type="radio" name="like" id="01">
-                                <label class="radio-button__label" for="01">
-                                    <img class="radio-button__pic" src="../img/like-icon/like01.png" alt="like-pic">
-                                    Клієнти - наша пристрасть</label>
-                            </div>
-                            <div class="radio-button">
-                                <input class="radio-button__input" type="radio" name="like" id="02">
-                                <label class="radio-button__label" for="02">
-                                    <img class="radio-button__pic" src="../img/like-icon/like02.png" alt="like-pic">
-                                    Чесність</label>
-                            </div>
-                            <div class="radio-button">
-                                <input class="radio-button__input" type="radio" name="like" id="03">
-                                <label class="radio-button__label" for="03">
-                                    <img class="radio-button__pic" src="../img/like-icon/like03.png" alt="like-pic">
-                                    Інноваційність</label>
-                            </div>
-                            <div class="radio-button">
-                                <input class="radio-button__input" type="radio" name="like" id="04">
-                                <label class="radio-button__label" for="04">
-                                    <img class="radio-button__pic" src="../img/like-icon/like04.png" alt="like-pic">
-                                    Підприємницький дух</label>
-                            </div>
-                            <div class="radio-button">
-                                <input class="radio-button__input" type="radio" name="like" id="05">
-                                <label class="radio-button__label" for="05">
-                                    <img class="radio-button__pic" src="../img/like-icon/like05.png" alt="like-pic">
-                                    Співпраця</label>
-                            </div>
-                            <div class="radio-button">
-                                <input class="radio-button__input" type="radio" name="like" id="06">
-                                <label class="radio-button__label" for="06">
-                                    <img class="radio-button__pic" src="../img/like-icon/like06.png" alt="like-pic">
-                                    Інші подяки</label>
-                            </div>
-                        </div>
-                        <div class="comments">
-                            <p class="comments__label">Введіть коментар:</p>
-                            <textarea name="comment" cols="30" rows="10"></textarea>
-                        </div>
-                    </form>
-                    <div class="submit-button">
-                        <input class="submit-form" type="submit" value="Подякувати колезі">
-                    </div>
-
+                    <table>
+                        <thead>
+                        <tr>
+                            <td>Позиція в рейтингу</td>
+                            <td>ПІБ</td>
+                            <td>Підрозділ <select name="" id="filter"></select></td>
+                            <td>Значення показника</td>
+                            <td>Функціональний керівник</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
-            </div>
+            </section>
         </section>
     </section>
-</section>
+</div>
 </body>
 </html>

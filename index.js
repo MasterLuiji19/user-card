@@ -10,7 +10,7 @@ function createUser(user) {
 
     document.querySelector(".info__data-name").innerText = user.userName;
     document.querySelector(".info__data-position").innerText = user.userPosition;
-    document.querySelector(".info__avatar-image").setAttribute("src", user.userPhoto);
+    document.querySelector(".avatar__image").setAttribute("src", user.userPhoto);
     document.querySelector(".user-talents").innerText = user.userTalents;
     document.querySelector(".thanks-talents").innerText = user.thanksTalents;
     document.querySelectorAll(".info-box__passed-courses").forEach(element => {
@@ -40,7 +40,6 @@ function createUser(user) {
     //////////
 
     const rankingBody = document.querySelectorAll("#info-table > .table-row");
-    console.log(rankingBody[1]);
     document.addEventListener("DOMContentLoaded", () => {user.passedCourses});
 
 

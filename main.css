@@ -3,15 +3,20 @@ body {
     padding: 0;
 }
 
+.wrapper {
+    background-color: #f3f3f4;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
 .user-card {
     box-sizing: border-box;
-    margin: -38px auto 0;
+    margin: 0 auto;
     max-width: 1176px;
     font-size: 15px;
     color: #698392;
     font-family: 'Museo Sans Cyrl 500', Arial, Helvetica, sans-serif;
-    background-color: #f3f3f4;
-    overflow: hidden;
 }
 
 .background {
@@ -27,33 +32,34 @@ body {
 
 .info {
     width: 24%;
-    margin: -111px 6% 0 0;
+    margin-right: 6%;
 }
 
-.info__avatar {
+.avatar {
+    margin-top: -50%;
     position: relative;
-    display: block;
+}
+
+.avatar__wrap {
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
-    width: 222px;
-    height: 222px;
+    position: relative;
     overflow: hidden;
 }
 
-.info__avatar-image {
-    vertical-align: bottom;
-    width: 100%;
-    height: auto;
-}
-
-.info__avatar::before {
-    content: '';
-    display: none;
+.avatar__reward {
     width: 30%;
     height: 30%;
     border-radius: 50%;
     background-color: #fff;
-    bottom: 0;
     position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.avatar__image {
+    width: 100%;
 }
 
 .info__data {
@@ -149,7 +155,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    overflow: hidden;
     white-space: nowrap;
 }
 
@@ -264,6 +269,10 @@ td.name {
 }
 
 @media only screen and (max-width: 768px) {
+    .wrapper {
+        height: auto;
+    }
+
     .content {
         display: block;
         margin: 0 auto;
@@ -271,11 +280,15 @@ td.name {
 
     .info {
         width: 80%;
-        margin: -79px auto 50px;
+        margin: 0 auto 50px;
     }
 
     .info-wrapper {
         display: flex;
+    }
+
+    .info .info-wrapper:nth-child(1) {
+        align-items: flex-end;
     }
 
     .info-wrap {
@@ -284,17 +297,8 @@ td.name {
         margin-top: 50px;
     }
 
-    .info__avatar {
+    .avatar {
         margin-right: 35px;
-        border-radius: 0;
-    }
-
-    .info__avatar-image {
-        border-radius: 50%;
-    }
-
-    .info__data {
-        margin: 95px 0 0;
     }
 
     .indicators {
@@ -345,12 +349,5 @@ td.name {
     td:nth-child(2),
     td:nth-child(4){
         display: none;
-    }
-
-}
-
-@media only screen and (max-width: 360px) {
-    .info__avatar {
-        margin-right: 0;
     }
 }

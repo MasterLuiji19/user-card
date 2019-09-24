@@ -99,17 +99,17 @@ textarea {
 }
 
 .submit-button {
-    height: 32px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .submit-form {
-    display: block;
     padding: 7px 15px;
     background-color: #229fff;
     color: #ffffff;
-    border-radius: 4px;
+    border-radius: 20px;
     border: none;
-    float: right;
+    cursor: pointer;
 }
 
 .submit-form:hover {

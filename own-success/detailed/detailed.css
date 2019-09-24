@@ -1,2 +1,71 @@
 @import "../../main.css";
 
+.filter-wrapper {
+    margin-bottom: 30px;
+}
+
+.detail-filter {
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+
+.detail-filter__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.detail-filter__item_name {
+    width: 50%;
+}
+
+.detail-filter_item_choice {
+    width: 50%;
+}
+
+select {
+    display: block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.period-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-filter__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.detail-filter__button {
+    display: block;
+    padding: 7px 15px;
+    background-color: #229fff;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.detail-filter__button:nth-child(1) {
+    margin-right: 5px;
+}
+
+#filter {
+    display: inline;
+    width: 10px;
+    height: 22px;
+}
+
+
+td:nth-child(1),
+td:nth-child(4) {
+    max-width: 75px;
+}
+
+td:nth-child(5) {
+    max-width: 100px;
+}
