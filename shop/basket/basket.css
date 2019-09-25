@@ -1,0 +1,105 @@
+@import "../../main.css";
+
+.basket {
+    margin-bottom: 20px;
+}
+
+.basket__product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-remove {
+    padding: 2px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 0.5;
+    color: #000;
+    opacity: .5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.product-wrap {
+    display: flex;
+}
+
+.product-wrap_item {
+    display: flex;
+    align-items: center;
+}
+
+.img-wrap {
+    width: 70px;
+    height: 70px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.img-wrap img {
+    width: 100%;
+}
+
+.product-name {
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    color: #2b3341;
+}
+
+.sum-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.price__item {
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    color: #2b3341;
+    font-size: 20px;
+}
+
+.quantity {
+    margin-right: 40px;
+}
+
+.product__down,
+.product__up {
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #229fff;
+}
+
+.product__quantity {
+    margin: 0 10px;
+}
+
+.basket-order {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.basket-order__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-info {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.button-order {
+    padding: 10px 25px;
+    font-family: 'Museo Sans Cyrl 700', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #2396FD;
+    border-radius: 22px;
+}
+
+.button-order:hover {
+    background-color: #F9D623;
+    color: #2b3341;
+}

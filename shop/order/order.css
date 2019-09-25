@@ -1,0 +1,27 @@
+@import "../../main.css";
+
+.info-box__link {
+    margin-bottom: 20px;
+}
+
+.info-box {
+    text-align: center;
+}
+
+.info-box__text {
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    color: #2b3341;
+    margin-bottom: 20px;
+}
+
+.info-box__value {
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    color: #2b3341;
+    font-size: 26px;
+}
+
+thead,
+td:nth-child(2),
+td:nth-child(3) {
+    text-align: center;
+}

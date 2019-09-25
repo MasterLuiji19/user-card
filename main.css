@@ -41,9 +41,6 @@ body {
 }
 
 .avatar__wrap {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
     position: relative;
     overflow: hidden;
 }
@@ -60,6 +57,7 @@ body {
 
 .avatar__image {
     width: 100%;
+    border-radius: 50%;
 }
 
 .info__data {
@@ -155,6 +153,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    overflow: hidden;
     white-space: nowrap;
 }
 
@@ -333,13 +332,12 @@ td.name {
 
     .block-wrapper {
         margin-bottom: 0;
-        padding: 30px 0;
+        padding: 30px 25px;
     }
 
     .info-done {
         flex-wrap: wrap;
         margin: 0 auto;
-        padding-left: 25px;
     }
 
     .info-box {

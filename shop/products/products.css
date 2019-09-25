@@ -1,0 +1,54 @@
+@import "../../main.css";
+
+.wrapper {
+    height: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop-card {
+    padding: 0 18px 20px;
+    border-right: 1px solid #eef0f6;
+    border-bottom: 1px solid #eef0f6;
+}
+
+.product-name {
+    margin-bottom: 20px;
+}
+
+.product-name__title {
+    display: block;
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    color: #2b3341;
+}
+
+.shop-card__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-item__sum {
+    display: block;
+    font-family: 'Museo Sans Cyrl 900', Arial, Helvetica, sans-serif;
+    color: #2b3341;
+    font-size: 20px;
+}
+
+.order-button {
+    padding: 10px 25px;
+    font-family: 'Museo Sans Cyrl 700', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #2396FD;
+    border-radius: 22px;
+}
+
+.order-button:hover {
+    background-color: #F9D623;
+    color: #2b3341;
+}
