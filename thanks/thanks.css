@@ -121,5 +121,18 @@ textarea {
     background-color: #0371D4;
 }
 
+@media only screen and (max-width: 768px) {
+    form {
+        flex-direction: column;
+        align-items: normal;
+    }
 
+    .wrapper-form {
+        width: 100%;
+    }
+
+    .comments {
+        width: 100%;
+    }
+}
 

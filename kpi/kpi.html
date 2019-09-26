@@ -74,12 +74,12 @@
                     <li class="menu__item"><a class="user-account__menu-link menu__link" href="../adaptation/adaptation.html">адаптація</a></li>
                     <li class="menu__item"><a class="user-account__menu-link menu__link" href="../values/values.html">досягнення</a></li>
                     <li class="menu__item"><a class="user-account__menu-link menu__link" href="../own-success/talents/talents.html">особистий успіх</a></li>
-                    <!--                <li class="menu__item"><a class="user-account__menu-link menu__link" href="">магазин</a></li>-->
+                    <li class="menu__item"><a class="user-account__menu-link menu__link" href="../shop/products/products.html">магазин</a></li>
                 </ul>
                 <div class="block-wrapper">
-                    <table>
+                    <table class="kpi-table">
                         <thead>
-                        <tr>
+                        <tr class="kpi-thead-tr">
                             <th></th>
                             <th></th>
                             <th class="th-gray">Попередні</th>
@@ -90,7 +90,7 @@
                         </tr>
                         </thead>
                         <thead>
-                        <tr>
+                        <tr class="kpi-thead-tr">
                             <th></th>
                             <th class="th-gray">План</th>
                             <th class="th-gray">Факт</th>
@@ -101,32 +101,96 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <th>URSELL</th>
-                            <td class="th-gray" data-label="План">300</td>
-                            <td class="th-gray" data-label="Факт">210</td>
-                            <td class="th-gray" data-label="%">70</td>
-                            <td data-label="План">300</td>
-                            <td data-label="Факт">300</td>
-                            <td data-label="%">100</td>
+                        <tr class="kpi-tbody-tr">
+                            <th class="kpi-name">URSELL</th>
+                            <td class="th-gray prev-plan">300</td>
+                            <td class="th-gray prev-fact">210</td>
+                            <td class="th-gray prev-percent">70</td>
+                            <td class="plan">300</td>
+                            <td class="fact">300</td>
+                            <td class="percent">100</td>
+                        </tr>
+                        <tr class="kpi-tbody-tr">
+                            <th class="kpi-name">НКП</th>
+                            <td class="th-gray prev-plan">300</td>
+                            <td class="th-gray prev-fact">210</td>
+                            <td class="th-gray prev-percent">70</td>
+                            <td class="plan">300</td>
+                            <td class="fact">300</td>
+                            <td class="percent">100</td>
+                        </tr>
+                        <tr class="kpi-tbody-tr">
+                            <th class="kpi-name">ДПК</th>
+                            <td class="th-gray prev-plan">300</td>
+                            <td class="th-gray prev-fact">210</td>
+                            <td class="th-gray prev-percent">70</td>
+                            <td class="plan">300</td>
+                            <td class="fact">300</td>
+                            <td class="percent">100</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table class="kpi-table-mob">
+                        <thead>
+                        <tr class="kpi-thead-tr">
+                            <th></th>
+                            <th></th>
+                            <th class="th-gray">Попередні</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <thead>
+                        <tr class="kpi-thead-tr">
+                            <th></th>
+                            <th></th>
+                            <th>Поточні</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <thead>
+                        <tr class="kpi-thead-tr">
+                            <th></th>
+                            <th>План</th>
+                            <th>Факт</th>
+                            <th>%</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="kpi-tbody-tr">
+                            <th class="kpi-name">URSELL</th>
+                            <td class="th-gray prev-plan">300</td>
+                            <td class="th-gray prev-fact">210</td>
+                            <td class="th-gray prev-percent">70</td>
                         </tr>
                         <tr>
-                            <th>НКП</th>
-                            <td class="th-gray" data-label="План">100</td>
-                            <td class="th-gray" data-label="Факт">80</td>
-                            <td class="th-gray" data-label="%">80</td>
-                            <td data-label="План">100</td>
-                            <td data-label="Факт">95</td>
-                            <td data-label="%">95</td>
+                            <th></th>
+                            <td class="plan">300</td>
+                            <td class="fact">300</td>
+                            <td class="percent">100</td>
+                        </tr>
+                        <tr class="kpi-tbody-tr">
+                            <th class="kpi-name">НКП</th>
+                            <td class="th-gray prev-plan">100</td>
+                            <td class="th-gray prev-fact">80</td>
+                            <td class="th-gray prev-percent">80</td>
                         </tr>
                         <tr>
-                            <th>ДПК</th>
-                            <td class="th-gray" data-label="План">500</td>
-                            <td class="th-gray" data-label="Факт">300</td>
-                            <td class="th-gray" data-label="%">60</td>
-                            <td data-label="План">500</td>
-                            <td data-label="Факт">400</td>
-                            <td data-label="%">80</td>
+                            <th></th>
+                            <td class="plan">300</td>
+                            <td class="fact">300</td>
+                            <td class="percent">100</td>
+                        </tr>
+                        <tr class="kpi-tbody-tr">
+                            <th class="kpi-name">ДПК</th>
+                            <td class="th-gray prev-plan">500</td>
+                            <td class="th-gray prev-fact">300</td>
+                            <td class="th-gray prev-percent">60</td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td class="plan">300</td>
+                            <td class="fact">300</td>
+                            <td class="percent">100</td>
                         </tr>
                         </tbody>
                     </table>

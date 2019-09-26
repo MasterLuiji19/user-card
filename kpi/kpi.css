@@ -25,6 +25,10 @@ table th, table td {
     color: #2b3341;
 }
 
+.kpi-name {
+    text-align: left;
+}
+
 table th {
     text-transform: uppercase;
     font-size: 14px;
@@ -35,36 +39,17 @@ table th {
     color: #a5b5be;
 }
 
-@media screen and (max-width: 600px) {
-    table {
-        border: 0;
-    }
+.kpi-table-mob {
+    display: none;
+}
 
-    table thead {
+@media screen and (max-width: 768px) {
+    .kpi-table {
         display: none;
     }
 
-    table tr {
-        margin-bottom: 10px;
-        display: block;
-        border-bottom: 2px solid #ddd;
+    .kpi-table-mob {
+        display: table;
     }
 
-    table td {
-        display: block;
-        text-align: right;
-        font-size: 13px;
-        border-bottom: 1px dotted #ccc;
-    }
-
-    table td:last-child {
-        border-bottom: 0;
-    }
-
-    table td:before {
-        content: attr(data-label);
-        float: left;
-        text-transform: uppercase;
-        font-weight: bold;
-    }
 }

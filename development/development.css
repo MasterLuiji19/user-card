@@ -18,7 +18,7 @@
 .progress__item {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 12px;
+    margin-bottom: 17px;
 }
 
 .progress__item-title {
@@ -55,4 +55,15 @@
 
 .circle__item-half::before {
     background-image: linear-gradient(to bottom, rgb(201, 210, 218) 50%, rgba(255, 255, 255, 0) 50%);
+}
+
+@media only screen and (max-width: 768px) {
+    .progress__item {
+        display: block;
+    }
+
+    .progress__item-title {
+        display: block;
+        margin-bottom: 10px;
+    }
 }

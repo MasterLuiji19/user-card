@@ -326,7 +326,7 @@ td.name {
         width: 100%;
     }
 
-    .menu {
+    .user-account__menu {
         padding-left: 25px;
     }
 
@@ -344,8 +344,10 @@ td.name {
         margin-bottom: 23px;
     }
 
-    td:nth-child(2),
-    td:nth-child(4){
+    .thead-tr td:nth-child(2),
+    .thead-tr td:nth-child(4),
+    .tbody-tr td:nth-child(2),
+    .tbody-tr td:nth-child(4){
         display: none;
     }
 }
