@@ -1,5 +1,10 @@
 @import '../../main.css';
 
+.rating-table {
+    width: 645px;
+    overflow: scroll;
+}
+
 .avatar-image {
     width: 40px;
     border-radius: 50%;
@@ -15,3 +20,6 @@ td:nth-child(2) {
     max-width: 30px;
 }
 
+@media only screen and (max-width: 768px) {
+
+}

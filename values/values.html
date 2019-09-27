@@ -118,7 +118,7 @@
                     <div class="values-info">
                         <p class="values-info__description">Чути клієнта, навчатися у клієнта та ставати кращими.</p>
                         <div class="values-info__list">
-                            <table>
+                            <table class="talent-table">
                                 <thead>
                                 <tr>
                                     <td>Дата</td>
@@ -128,19 +128,50 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td data-label="Дата">13.07.2019</td>
-                                    <td data-label="ПІБ">Іванов Іван Іванович</td>
-                                    <td data-label="Коментар">Дуже довгий коментар який тестує таблицю на дожину блока.</td>
+                                    <td class="talent-table__data">13.07.2019</td>
+                                    <td class="talent-table__name">Іванов Іван Іванович</td>
+                                    <td class="talent-table__comment">Дуже довгий коментар який тестує таблицю на дожину блока.</td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Дата">15.07.2019</td>
-                                    <td data-label="ПІБ">Сидоров Сидор Сидорович</td>
-                                    <td data-label="Коментар">Коментар 1</td>
+                                    <td class="talent-table__data">15.07.2019</td>
+                                    <td class="talent-table__name">Сидоров Сидор Сидорович</td>
+                                    <td class="talent-table__comment">Коментар 1</td>
                                 </tr>
                                 <tr>
-                                    <td data-label="Дата">19.07.2019</td>
-                                    <td data-label="ПІБ">Петров Петро Петрович</td>
-                                    <td data-label="Коментар">Коментар 1</td>
+                                    <td class="talent-table__data">19.07.2019</td>
+                                    <td class="talent-table__name">Петров Петро Петрович</td>
+                                    <td class="talent-table__comment">Коментар 1</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="talent-table__mob">
+                                <thead>
+                                <tr>
+                                    <td>Дата/ПІБ</td>
+                                    <td colspan="2">Коментар</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="talent-table__data">13.07.2019</td>
+                                    <td rowspan="2" class="talent-table__comment">Дуже довгий коментар який тестує таблицю на дожину блока.</td>
+                                </tr>
+                                <tr>
+                                    <td class="talent-table__name">Іванов Іван Іванович</td>
+                                </tr>
+                                <tr>
+                                    <td class="talent-table__data">15.07.2019</td>
+                                    <td rowspan="2" class="talent-table__comment">Коментар 1</td>
+                                </tr>
+                                <tr>
+                                    <td class="talent-table__name">Сидоров Сидор Сидорович</td>
+                                </tr>
+                                <tr>
+                                    <td class="talent-table__data">19.07.2019</td>
+                                    <td rowspan="2" class="talent-table__comment">Коментар 1</td>
+                                </tr>
+                                <tr>
+                                    <td class="talent-table__name">Петров Петро Петрович</td>
                                 </tr>
                                 </tbody>
                             </table>

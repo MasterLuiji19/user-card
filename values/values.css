@@ -92,3 +92,17 @@ table th {
     font-size: 14px;
     letter-spacing: 1px;
 }
+
+.talent-table__mob {
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .talent-table {
+        display: none;
+    }
+
+    .talent-table__mob {
+        display: table;
+    }
+}
